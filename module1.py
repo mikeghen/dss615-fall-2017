@@ -1,3 +1,4 @@
+# By mike
 
 filename = 'inpatient_payments_data.csv'
 index = 0
@@ -16,5 +17,5 @@ with open(filename, 'r') as inpatient_payments_data:
             value_3 = float(values[-3].replace('$',''))
 
         index++
-        
+
         print value_1, value_2, value_3
