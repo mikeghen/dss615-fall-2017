@@ -1,4 +1,4 @@
-# By mike
+# This program parses the $ data from the `inpatient_payments_data.csv` file
 
 filename = 'inpatient_payments_data.csv'
 index = 0
