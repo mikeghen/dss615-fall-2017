@@ -17,4 +17,16 @@ def transform(data):
     Transforms a list of x,y values to compute an SMA for y values.
     Returns a list of tuples (x,y') where y' is the SMA value computed
     """
-    return
+    transformed_data = [] # The SMA data
+
+    for index, datum in enumerate(data):
+      if index < SMA_WINDOW_SIZE:
+          transformed_data.append((datum[0],0))
+      else:
+          sma = 0
+          for i in range(SMA_WINDOW_SIZE):
+              sma += float(data[index - i][1])
+          sma = sma/SMA_WINDOW_SIZE
+          transformed_data.append((datum[0],sma))
+
+    return transformed_data
