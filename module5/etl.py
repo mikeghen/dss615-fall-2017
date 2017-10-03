@@ -44,7 +44,6 @@ def transform(data):
 
     return btc_markets_records
 
-
 def load(records):
     """
     Writes tuple records to file at DATA_FILE_PATH as TSV. Returns the number of
