@@ -3,19 +3,19 @@
 # Starting a New Project
 1. Start fresh in a clean directory. It's important to keep your file system well organized and to keep projects separate.
 
-:pro_tip: I always place my projects in a `Projects` directory in my `Documents` directory. When working on a _personal project_ the path the project is always `~/Documents/Projects/project_name`. For companies, I create a company folder and place projects in side that folder, for example: `~/Documents/BenefitsDataTrust/Projects/project_name`.
+:hammer_and_wrench: I always place my projects in a `Projects` directory in my `Documents` directory. When working on a _personal project_ the path the project is always `~/Documents/Projects/project_name`. For companies, I create a company folder and place projects in side that folder, for example: `~/Documents/BenefitsDataTrust/Projects/project_name`.
 
 2. Always create a `README.md` file and write some specifications or _specs_ for your project.
 
-:pro_tip: As you develop you're project, expand on your `README.md` file. Include information that will allow another programmer read, understand, and get started working with your project. Even if you don't plan to share this project, it will help you when you come back 6 months later and revisit the project.
+:hammer_and_wrench: As you develop you're project, expand on your `README.md` file. Include information that will allow another programmer read, understand, and get started working with your project. Even if you don't plan to share this project, it will help you when you come back 6 months later and revisit the project.
 
 3. Create a `requirements.txt` file and list out all of the packages you're going to use.
 
-:pro_tip: This lets you do `pip install -r requirements.txt` to install all the requirements for the project. I think Anaconda has something similar.
+:hammer_and_wrench: This lets you do `pip install -r requirements.txt` to install all the requirements for the project. I think Anaconda has something similar.
 
 4. Have a file that is the entry point to your project (e.g. `main.py`, `server.py`, `app.py`).
 
-:pro_tip: Projects should be run from the command line: `python main.py` or `python server.py`  
+:hammer_and_wrench: Projects should be run from the command line: `python main.py` or `python server.py`  
 
 # Subbing Out Your Projects Structure
 ## Single File Projects
