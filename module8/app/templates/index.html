@@ -1,0 +1,27 @@
+<html>
+<body>
+<h1>Data Table</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Timestamp</th>
+      <th>Market</th>
+      <th>Price</th>
+      <th>Volume</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for record in records %}
+    <tr>
+      <td>{{record[0]}}</td>
+      <td>{{record[1]}}</td>
+      <td>{{record[2]}}</td>
+      <td>{{record[3]}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+
+</table>
+
+</body>
+</html>
